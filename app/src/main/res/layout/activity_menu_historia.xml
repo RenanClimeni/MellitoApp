@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundomelhistoria"
+    tools:context=".Activitys.MenuHistoria">
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="450dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="Acredita-se que a história da \napicultura começou com os egípcios. No começo, há cerca \nde 4.400 anos atrás, eles começaram a colocar abelhas em potes de barro. Assim, deixando-os perto da residência do produtor. Mas esse tipo de cultivo era muito parecido com \na caça primitiva do mel, onde prejudicavam e até matavam o enxame, para a extração dos produtos."
+            android:textAlignment="center"
+            android:textColor="@color/colorMarrom"
+            android:textSize="24sp" />
+    </RelativeLayout>
+</RelativeLayout>

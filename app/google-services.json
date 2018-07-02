@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "225189154462",
+    "firebase_url": "https://mellito-d1350.firebaseio.com",
+    "project_id": "mellito-d1350",
+    "storage_bucket": "mellito-d1350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225189154462:android:88dc79844c3ddbc9",
+        "android_client_info": {
+          "package_name": "com.renanclimeni.appmellito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225189154462-stgj2skpu18pgmejmgtngv7aebvt4hna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.renanclimeni.appmellito",
+            "certificate_hash": "0d12f0883c53fbf9159d74fbaea43b40c0ad151d"
+          }
+        },
+        {
+          "client_id": "225189154462-9dt2u84u1tqeptl0030l19d2qo8dsfng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL87nB6OBB4Dwz69Hm_uBtnGLTs2K_zrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225189154462-9dt2u84u1tqeptl0030l19d2qo8dsfng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

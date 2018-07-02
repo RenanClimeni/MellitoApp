@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundomel"
+    android:orientation="vertical"
+    tools:context=".Activitys.MenuProdutos">
+
+
+    <HorizontalScrollView
+        android:layout_width="1230dp"
+        android:layout_height="430dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="65dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="113dp">
+
+        <LinearLayout
+            android:layout_width="1230dp"
+            android:layout_height="430dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="410dp"
+                android:layout_height="430dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="310dp"
+                    android:layout_height="310dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/pote300g" />
+
+                <Button
+                    android:id="@+id/btnSubt"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/imageView3"
+                    android:background="@drawable/sub" />
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="146dp"
+                    android:background="@drawable/add" />
+
+                <TextView
+                    android:id="@+id/txtQtd300g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnSubt"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="114dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+                    android:textColor="@color/colorMarrom" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/txtQtd300g"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="171dp"
+                    android:text="R$"
+                    android:textColor="@color/colorMarrom"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/imageView3"
+                    android:layout_alignParentBottom="true"
+                    android:text="0.00"
+                    android:textColor="@color/colorMarrom"
+                    android:textSize="50sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="410dp"
+                android:layout_height="430dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="310dp"
+                    android:layout_height="310dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/pote250g" />
+
+                <Button
+                    android:id="@+id/btnSubt2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/imageView4"
+                    android:background="@drawable/sub" />
+
+                <Button
+                    android:id="@+id/btnAdd2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="146dp"
+                    android:background="@drawable/add" />
+
+                <TextView
+                    android:id="@+id/txtQtd250g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnSubt2"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="114dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+                    android:textColor="@color/colorMarrom" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/txtQtd250g"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="165dp"
+                    android:text="R$"
+                    android:textColor="@color/colorMarrom"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtTotal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/imageView4"
+                    android:layout_alignParentBottom="true"
+                    android:text="0.00"
+                    android:textColor="@color/colorMarrom"
+                    android:textSize="50sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="410dp"
+                android:layout_height="430dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="310dp"
+                    android:layout_height="310dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/sache" />
+
+                <Button
+                    android:id="@+id/btnSubt3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/imageView5"
+                    android:background="@drawable/sub" />
+
+                <Button
+                    android:id="@+id/btnAdd3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="146dp"
+                    android:background="@drawable/add" />
+
+                <TextView
+                    android:id="@+id/txtQtdSache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnSubt3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="114dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+                    android:textColor="@color/colorMarrom" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/txtQtdSache"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="165dp"
+                    android:text="R$"
+                    android:textColor="@color/colorMarrom"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtTotal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/imageView5"
+                    android:layout_alignParentBottom="true"
+                    android:text="0.00"
+                    android:textColor="@color/colorMarrom"
+                    android:textSize="50sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btnCarrinho"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAmarelo"
+        android:text="Adicionar ao carrinho" />
+
+</RelativeLayout>
